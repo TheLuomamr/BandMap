@@ -64,7 +64,7 @@
         font-family: sans-serif;
         font-weight: 400;
         font-size: 15px;
-        transition: 0.2s ease;
+        transition: 0.9s ease;
     }
     input[type='submit']
     {
@@ -78,7 +78,7 @@
         font-family: 'Syncopate', sans-serif;
         font-weight: 500;
         text-transform: uppercase;
-        transition: 0.2 ease;
+        transition: 0.9s ease;
         cursor: pointer;
     }
 
@@ -101,7 +101,7 @@
         /* background-image: url("https://images.pexels.com/photos/6966/abstract-music-rock-bw.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
         background-size: cover;
         background-position: center; */
-        padding-top: 80px;
+        padding-top: 100px;
         
     }
     .or{
@@ -138,8 +138,11 @@
         color: #fff;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         font-weight: 300;
-        transition: 0.2s ease;
+        transition: 0.9s ease;
         cursor: pointer;
+        font-size: 15px;
+
+        
     }
     .facebook{
         background: #32508e;
@@ -241,7 +244,7 @@
         font-family: sans-serif;
         font-weight: 400;
         font-size: 15px;
-        transition: 0.2s ease;
+        transition: 0.9s ease;
         background: white;
         width: 250px;
         margin-top: 20px;
@@ -262,7 +265,7 @@
         font-family:'Syncopate', sans-serif;
         font-weight: 500;
         text-transform: uppercase;
-        transition: 0.2 ease;
+        transition: 0.9s ease;
         cursor: pointer;
     }
     ::placeholder{
@@ -290,8 +293,8 @@
         background: #259998;
     }
     button.social{
-        margin-top: 10px;
-        margin-bottom: 10px;
+        margin-top: 5px;
+        margin-bottom: 5px;
         width: 175px;
         height: 45px;
         border: none;
@@ -299,7 +302,7 @@
         color: #fff;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         font-weight: 500;
-        transition: 0.2s ease;
+        transition: 0.9s ease;
         cursor: pointer;
         font-size: 13px;
         
