@@ -1,0 +1,28 @@
+
+
+form.search {
+    overflow: auto;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+  }
+  
+  form.search button[type="submit"] {
+    position: relative;
+    margin-top: 10px;
+  }
+
+form.group {
+  width: 100%;
+}
+
+.searchContainer {
+  margin-bottom: 10px;  
+}
+
+input {
+  width: 100%;
+}
