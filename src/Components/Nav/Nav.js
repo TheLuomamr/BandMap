@@ -35,12 +35,16 @@ class Nav extends React.Component {
           onStateChange={(state)=> this.handleStateChange(state)}
     >
 
-      <a onClick={() => this.closeMenu()}>
-      <Link to="/">Home</Link>
+      <a className={window.location.pathname === "/"} onClick={() => this.closeMenu()}>
+      <Link to="/">.</Link>
       </a>
 
       <a className={window.location.pathname === "/about"} onClick={() => this.closeMenu()}>
       <Link to="/about">About</Link>
+      </a>
+
+      <a className={window.location.pathname === "/map"} onClick={() => this.closeMenu()}>
+      <Link to="/home">Home</Link>
       </a>
 
       <a className="menu-item" href="/favs">
