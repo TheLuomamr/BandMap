@@ -1,5 +1,6 @@
 /*global google*/
 //import MapResults from "../MapResults/MapResults"
+import Map from "../Map/Map"
 import API from "../../utils/API";
 import Searchbar from "../Searchbar/Searchbar"
 import React from 'react'
@@ -41,7 +42,16 @@ class MyMapComponent extends React.Component {
             // console.log(venues);
             
             //this.setState({ results: res.data.message, error: "" });
-            this.setState({ results: res.data[0].venue.name + ", " + res.data[0].venue.city, error: "" });
+            var ven = [];
+            for (var i=0; i < 10; i++) {
+              ven.push({location: res.data[i].venue.name + ", " + res.data[i].venue.city});
+            };
+            
+            // ven.push({location: res.data[0].venue.name + ", " + res.data[0].venue.city});
+            // ven.push({location: res.data[1].venue.name + ", " + res.data[1].venue.city});
+            //this.setState({ results: res.data[0].venue.name + ", " + res.data[0].venue.city, error: "" });
+            console.log(ven);
+            this.setState({results: ven});
             console.log(this.state.results);
           })
           .catch(err => this.setState({ error: err.message }));
@@ -104,7 +114,9 @@ class MyMapComponent extends React.Component {
                 handleInputChange={this.handleInputChange}
                 venues={this.state.venues}
             />
-            
+            <Map
+                stops = {this.state.results}
+            />
             </div>
         )
     }
