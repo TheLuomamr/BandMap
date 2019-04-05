@@ -36,7 +36,7 @@
   width: 36px;
   height: 30px;
   left: 20px;
-  top: 60px;
+  top: 50px;
 }
 
 /* Color/shape of burger icon bars */
@@ -76,3 +76,6 @@
 .bm-overlay {
   background: rgba(0, 0, 0, 0.3);
 }
+
+a { text-decoration: none;}
+a:visited {color: #d1d1d1}
