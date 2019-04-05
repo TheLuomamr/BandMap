@@ -63,14 +63,14 @@
         font-size: 15px;
         transition: 0.9s ease;
     }
-    input[type='submit']
+    button.signup-button
     {
         margin-bottom: 28px;
         width:   120px;
         height: 32px;
         background: black;
         border: none;
-        border-radius: 2px;
+        border-radius: 5px;
         color: #fff;
         font-family: 'Syncopate', sans-serif;
         font-weight: 600;
@@ -78,8 +78,8 @@
         transition: 0.9s ease;
         cursor: pointer;
     }
-    input[type='submit'] :hover,
-    input[type='submit'] :focus
+    button.signup-button :hover,
+    button.signup-button :focus
     {
         background-color: black;
         transition: 0.2s ease;
@@ -243,10 +243,10 @@
         margin-top: 20px;
         border-radius: 5px;
         height: 30px;
-        opacity: 0.7;
+        opacity: 0.8;
     
     }
-    input[type="submit"]{
+    button.signup-button{
         margin-top:10px;
         margin-bottom: 5px;
         width:   150px;

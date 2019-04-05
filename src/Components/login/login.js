@@ -17,14 +17,14 @@ class Login extends Component{
                         </div>
                         <input type='text-center' name= "username" placeholder="Username"/>
                         <input type='password-center' name= "password" placeholder="Password"/>
-                        <input type='submit' name="signup-button" value="Login"/>
+                        <button class="signup-button">Login</button>
                     </div>
                     <div className="right-box">
-                        <button className='social facebook'>Log In With Facebook</button>
+                        <button className='social facebook'>Login With Facebook</button>
                         
-                        <button className="social twitter">Log In With Twitter</button> 
+                        <button className="social twitter">Login With Twitter</button> 
                         
-                        <button className= "social google">Log In With Google</button>
+                        <button className= "social google">Login With Google</button>
                     </div>
                     <div className="or">OR</div>
                 </div>

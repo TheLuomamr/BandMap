@@ -3,11 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-
-    "heroku": "^7.22.7",
-    "node": "^10.15.1",
     "axios": "^0.18.0",
-
+    "heroku": "^7.22.7",
+    "mongoose": "^5.4.22",
+    "node": "^10.15.1",
     "react": "^16.8.6",
     "react-burger-menu": "^2.6.8",
     "react-dom": "^16.8.6",
