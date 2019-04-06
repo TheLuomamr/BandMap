@@ -1,0 +1,25 @@
+@media only screen and (max-width: 768px){
+
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url("../SignUp/Images/Background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+h1 {
+  text-align: center; 
+}
+
+.about-card {
+  position: fixed;
+  margin-top: 100px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+}
