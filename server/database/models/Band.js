@@ -21,9 +21,9 @@ const bandSchema = new Schema ({
         type: String,
         type: Date,
         default: Date.now // needs to change to dates of tour?
-    }
+    },
 });
 
-const Band = mongoose.model("Band", bandSchema);
-
-module.exprts = Band;
+module.exports = function(connection) {
+    return connection.model("Band", bandSchema);
+};
