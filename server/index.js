@@ -17,7 +17,7 @@ async function initServer(){
     }
     
     return app.listen(8080, (err, res)=>{
-        console.log('app lsitening')
+        console.log('app lsitening on')
     })
 }
 catch(err) {

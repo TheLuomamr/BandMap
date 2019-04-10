@@ -14,9 +14,9 @@ module.exports = async function seedData() {
 }
 
 const userData = {
-    username: 'toni',
+    username: 'Sam',
     email: 'example@gmail.com',
-    password: '1234'
+    password: '06660'
 }
 
 const bandsData = [
