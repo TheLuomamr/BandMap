@@ -1,6 +1,7 @@
 /*global google*/
 //import MapResults from "../MapResults/MapResults"
 import API from "../../utils/API";
+import withBands from "../../hocs/withBands"
 import Searchbar from "../Searchbar/Searchbar"
 import React from 'react'
 import  { compose, withProps, lifecycle } from 'recompose'
@@ -109,4 +110,4 @@ class MyMapComponent extends React.Component {
         )
     }
 }
-export default MyMapComponent
+export default withBands(MyMapComponent)

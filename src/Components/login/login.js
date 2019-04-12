@@ -26,6 +26,7 @@ class Login extends Component{
                         
                         <button className= "social google">Login With Google</button>
 
+                        {/* <button onClick={() => window.location = 'localhost:8888/login' } className= "social spotify">Login With Spotify</button> */}
                         <button onClick={() => window.location = 'https://bandmap-backend.herokuapp.com/login' } className= "social spotify">Login With Spotify</button>
                     </div>
                     <div className="or">OR</div>
